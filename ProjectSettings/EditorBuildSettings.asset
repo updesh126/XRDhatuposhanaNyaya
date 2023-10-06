@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu/Main Menu.unity
+    path: Assets/Scenes/Main Menu.unity
     guid: 3fc35972d7a8b5246a598844988fa5e0
   - enabled: 1
     path: Assets/Scenes/Menu/Traning Menu.unity
@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/VR Basics Test/Surgery.unity
     guid: 99ae8f4119f9dbe4ea0694e3d562d6ce
   - enabled: 1
-    path: Assets/Scenes/Traning/BasicTraning.unity
+    path: Assets/Scenes/BasicTraning.unity
     guid: 7159afeacaf560147a31301d453b71b9
   - enabled: 1
     path: Assets/Scenes/VR Basics Test/SurgeryUP.unity
