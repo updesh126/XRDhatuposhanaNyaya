@@ -45495,7 +45495,7 @@ GameObject:
   - component: {fileID: 2079008997096382461}
   - component: {fileID: 2079008997097735709}
   m_Layer: 0
-  m_Name: magic_ring_04
+  m_Name: Fire_magic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
