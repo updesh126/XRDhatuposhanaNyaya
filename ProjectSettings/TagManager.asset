@@ -7,6 +7,7 @@ TagManager:
   - Grab
   - MassUnit
   - Milk
+  - Curd
   layers:
   - Default
   - TransparentFX
