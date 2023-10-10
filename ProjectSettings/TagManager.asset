@@ -6,11 +6,7 @@ TagManager:
   tags:
   - Grab
   - MassUnit
-  - tap
-  - spot
-  - alcohol
-  - blood
-  - bandage
+  - Milk
   layers:
   - Default
   - TransparentFX
