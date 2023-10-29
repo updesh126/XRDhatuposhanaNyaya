@@ -55,7 +55,7 @@ public class MilkHit : MonoBehaviour
             PourMilkmsg.SetActive(false);
             isMilkActive = true;
             Turnon.SetActive(true);
-            StartCoroutine(MilkSet());
+            //StartCoroutine(MilkSet());
         }   
         if(isCurdActive== true &&other.CompareTag("Curd"))
         {
