@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.400842, g: 0.4867738, b: 0.5797563, a: 1}
+  m_IndirectSpecularColor: {r: 0.40045393, g: 0.4863961, b: 0.5800374, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3857,6 +3857,7 @@ GameObject:
   - component: {fileID: 182457395}
   - component: {fileID: 182457394}
   - component: {fileID: 182457393}
+  - component: {fileID: 182457398}
   m_Layer: 5
   m_Name: Canvas (1)
   m_TagString: Untagged
@@ -3980,6 +3981,18 @@ RectTransform:
   m_AnchoredPosition: {x: 2.824, y: 1.269}
   m_SizeDelta: {x: 1280, y: 720}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &182457398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182457392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b5deb03179dfd642aeb74888deb807f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &183974625
 GameObject:
   m_ObjectHideFlags: 0
@@ -8907,7 +8920,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 415509684}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 182457398}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: SceneLoad
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Tutorial
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &415509684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15341,7 +15366,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 63919b1d4e403154dab4fea62fa19788, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -29364,7 +29389,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1624873583}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 182457398}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: SceneLoad
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Theories All
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1624873583
 MonoBehaviour:
   m_ObjectHideFlags: 0
