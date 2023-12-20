@@ -21,7 +21,7 @@ public class animationMilkBoy : MonoBehaviour
     private void Update()
     {
         timer += Time.deltaTime;
-        if (timer > 6f && !isBottleAnimationDone)
+        if (timer > 3f && !isBottleAnimationDone)
         {
             PlayMilkDrinkingAnimation();
             isBottleAnimationDone = true;
