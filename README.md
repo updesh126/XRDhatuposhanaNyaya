@@ -1,4 +1,4 @@
-# Ayush Vision
+# Ayurvision
 
 Welcome to the Ayush Vision! This repository contains the source code and assets for our awesome Unity project.
 
